@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.icon {
+  display: block;
+}
+
+:root {
+  --color-A: crimson;
+  --ff-primary: "Inter", sans-serif;
+  --fz-primary: 15px;
+  --fz-secondary: 11.5px;
+  --fz-third: 11px;
+  --fz-icon-secondary: 20px;
+  --fz-icon-primary: 25px;
+  --fw-primary: 500;
+  --fw-post-head-user-name: 600;
+  --padding-post-container: 20px 10px;
+  --padding-post-head: 0 5px;
+  --padding-post-bottom: 10px;
+  --size-user-avatar-medium: 35px;
+  --gap-post-head-user: 10px;
+  --gap-post: 15px;
+  --bra-post-body: 10px;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fz-primary);
+  font-weight: var(--fw-primary);
+}
+
+.icon--secondary {
+  font-size: var(--fz-icon-secondary);
+}
+.icon--primary {
+  font-size: var(--fz-icon-primary);
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-post);
+}
+.post__container {
+  padding: var(--padding-post-container);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.post__option {
+  cursor: pointer;
+}
+.post__time {
+  font-size: var(--fz-third);
+}
+.post--head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-post-head);
+}
+.post--head__user {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-post-head-user);
+}
+.post--head__user__info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.post--head__user__avatar {
+  width: var(--size-user-avatar-medium);
+  height: var(--size-user-avatar-medium);
+  border-radius: 100%;
+  outline: 2px solid var(--color-A);
+  outline-offset: 2px;
+}
+.post--head__user__name {
+  font-weight: var(--fw-post-head-user-name);
+}
+.post--body {
+  border-radius: var(--bra-post-body);
+  overflow: hidden;
+}
+.post--bottom {
+  padding: var(--padding-post-bottom);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post--bottom__tool {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.post--bottom__tool .total {
+  font-size: var(--fz-secondary);
+  font-weight: 400;
+}
+.post--bottom__tool--left {
+  display: flex;
+  gap: 20px;
+}
+
+/*# sourceMappingURL=app.css.map */

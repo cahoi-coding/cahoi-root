@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root
+{
+  --color-A: crimson;
+
+  --ff-primary: 'Inter', sans-serif;
+
+  --fz-primary: 15px;
+  --fz-secondary: 11.5px;
+  --fz-third: 11px;
+  --fz-icon-secondary: 20px;
+  --fz-icon-primary: 25px;
+
+  --fw-primary: 500;
+  --fw-post-head-user-name: 600;
+
+  --padding-post-container: 20px 10px;
+  --padding-post-head: 0 5px;
+  --padding-post-bottom: 10px;
+
+  --size-user-avatar-medium: 35px;
+
+  --gap-post-head-user: 10px;
+  --gap-post: 15px;
+
+  --bra-post-body: 10px;
+}

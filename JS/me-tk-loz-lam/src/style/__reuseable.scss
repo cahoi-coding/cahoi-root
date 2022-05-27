@@ -1,0 +1,19 @@
+body
+{
+  font-family: var(--ff-primary);
+  font-size: var(--fz-primary);
+  font-weight: var(--fw-primary);
+}
+
+.icon
+{
+  &--secondary
+  {
+    font-size: var(--fz-icon-secondary);
+  }
+
+  &--primary
+  {
+    font-size: var(--fz-icon-primary);
+  }
+}
